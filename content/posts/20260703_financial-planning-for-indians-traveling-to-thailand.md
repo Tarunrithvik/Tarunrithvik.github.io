@@ -41,8 +41,8 @@ Total estimated budget: ₹40,000 - ₹100,000
 
 ### Best Demat Accounts for Indians: Zerodha, Groww, and Angel One
 A demat account is a type of account that holds your financial securities, such as stocks, bonds, and mutual funds. For Indians, some of the best demat accounts are:
-* Zerodha: Offers low brokerage fees and a user-friendly interface. **[👉 Open a Zerodha Account]({{affiliate_link}})**
-* Groww: Provides a simple and easy-to-use platform for investing in mutual funds and stocks. **[👉 Open a Groww Account]({{affiliate_link}})**
+* Zerodha: Offers low brokerage fees and a user-friendly interface. **[👉 Open a Zerodha Account](https://zerodha.com/?c=MTL561&s=CONSOLE)**
+* Groww: Provides a simple and easy-to-use platform for investing in mutual funds and stocks. **[👉 Open a Groww Account](https://app.groww.in/v3cO/2s4o2no9)**
 * Angel One: Offers a range of investment products, including mutual funds, stocks, and IPOs. **[👉 Open an Angel One Account]({{affiliate_link}})**
 
 ## Investing Wisely for Your Trip
