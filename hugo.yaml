@@ -1,0 +1,41 @@
+baseURL: "https://Tarunrithvik.github.io/"
+title: "TechReview India"
+theme: "PaperMod"
+languageCode: "en-us"
+paginate: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+params:
+  env: production
+  description: "Honest tech reviews, comparisons & guides for India"
+  author: "TechReview India"
+  keywords: ["tech reviews india", "best hosting india", "ai tools india"]
+  homeInfoParams:
+    Title: "Welcome to TechReview India 🇮🇳"
+    Content: "Honest reviews, detailed comparisons & buying guides for Indian users."
+
+menu:
+  main:
+    - name: "Reviews"
+      url: "/categories/web-hosting/"
+      weight: 1
+    - name: "Comparisons"
+      url: "/categories/ai-tools/"
+      weight: 2
+    - name: "Guides"
+      url: "/categories/personal-finance/"
+      weight: 3
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
