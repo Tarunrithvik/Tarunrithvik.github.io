@@ -1,0 +1,113 @@
+/* === MODERN COLORFUL TECH BLOG THEME === */
+
+:root {
+    --accent: #6C63FF;
+    --accent-light: #8B85FF;
+    --gradient-1: #6C63FF;
+    --gradient-2: #FF6584;
+    --gradient-3: #43E97B;
+}
+
+/* Gradient header */
+.nav {
+    background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2)) !important;
+    padding: 12px 0;
+}
+
+.nav .logo a, .nav #menu a {
+    color: #fff !important;
+}
+
+/* Colorful post cards */
+.post-entry {
+    border: none !important;
+    border-radius: 16px !important;
+    background: linear-gradient(135deg, rgba(108, 99, 255, 0.05), rgba(255, 101, 132, 0.05)) !important;
+    border-left: 4px solid var(--accent) !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+    margin-bottom: 20px !important;
+    padding: 20px !important;
+}
+
+.post-entry:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 10px 30px rgba(108, 99, 255, 0.15) !important;
+}
+
+/* Modern title style */
+.post-title {
+    color: var(--accent) !important;
+    font-weight: 700 !important;
+}
+
+.post-entry .post-title {
+    color: var(--accent) !important;
+}
+
+/* Homepage title gradient */
+.first-entry .entry-header h1, 
+.home-info .entry-info-main h1 {
+    background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Rounded buttons and tags */
+.post-tags a {
+    background: var(--accent) !important;
+    color: #fff !important;
+    border-radius: 20px !important;
+    padding: 4px 12px !important;
+    border: none !important;
+}
+
+/* Share buttons colorful */
+.share-buttons a {
+    border-radius: 50% !important;
+}
+
+/* Table of contents */
+.toc {
+    border-radius: 12px !important;
+    border: 2px solid var(--accent) !important;
+}
+
+/* Code blocks */
+.highlight pre {
+    border-radius: 12px !important;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2)) !important;
+    color: #fff !important;
+}
+
+.footer a {
+    color: #fff !important;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Reading time badge */
+.post-meta {
+    color: var(--accent) !important;
+    font-weight: 500;
+}
+
+/* Dark mode adjustments */
+.dark .post-entry {
+    background: linear-gradient(135deg, rgba(108, 99, 255, 0.1), rgba(255, 101, 132, 0.05)) !important;
+}
+
+.dark .nav {
+    background: linear-gradient(135deg, #1a1a2e, #16213e) !important;
+}
+
+.dark .footer {
+    background: linear-gradient(135deg, #1a1a2e, #16213e) !important;
+}

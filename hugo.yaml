@@ -10,24 +10,59 @@ buildFuture: false
 
 params:
   env: production
-  description: "Honest tech reviews, comparisons & guides for India"
+  description: "Honest tech reviews, comparisons & guides for India 🇮🇳"
   author: "TechReview India"
-  keywords: ["tech reviews india", "best hosting india", "ai tools india"]
+  keywords: ["tech reviews india", "best hosting india", "ai tools india", "demat account india"]
+  
+  # Light mode with colorful accents (modern look)
+  defaultTheme: "auto"
+  
   homeInfoParams:
-    Title: "Welcome to TechReview India 🇮🇳"
-    Content: "Honest reviews, detailed comparisons & buying guides for Indian users."
+    Title: "🚀 TechReview India"
+    Content: "Honest reviews, detailed comparisons & smart buying guides for Indian users. We help you make the best tech & finance decisions."
+
+  # Cover image on posts
+  cover:
+    linkFullImages: true
+    responsiveImages: true
+
+  # Show reading time, share buttons
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+  
+  # Modern social icons
+  socialIcons:
+    - name: github
+      url: "https://github.com/Tarunrithvik"
+    - name: email
+      url: "mailto:b.tarunrithvik@gmail.com"
+
+  # Assets
+  assets:
+    favicon: "🚀"
 
 menu:
   main:
-    - name: "Reviews"
-      url: "/categories/web-hosting/"
+    - name: "🏠 Home"
+      url: "/"
       weight: 1
-    - name: "Comparisons"
-      url: "/categories/ai-tools/"
+    - name: "💻 Reviews"
+      url: "/categories/web-hosting/"
       weight: 2
-    - name: "Guides"
-      url: "/categories/personal-finance/"
+    - name: "⚡ Comparisons"
+      url: "/categories/ai-tools/"
       weight: 3
+    - name: "💰 Finance"
+      url: "/categories/personal-finance/"
+      weight: 4
+    - name: "🔍 Search"
+      url: "/search/"
+      weight: 5
 
 outputs:
   home:
