@@ -15,7 +15,7 @@ params:
   keywords: ["tech reviews india", "best hosting india", "ai tools india", "demat account india"]
   
   # Light mode with colorful accents (modern look)
-  defaultTheme: "auto"
+  defaultTheme: "light"
   
   homeInfoParams:
     Title: "🚀 TechReview India"
