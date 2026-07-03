@@ -51,18 +51,15 @@ menu:
     - name: "🏠 Home"
       url: "/"
       weight: 1
-    - name: "💻 Reviews"
-      url: "/categories/web-hosting/"
+    - name: "📚 All Posts"
+      url: "/posts/"
       weight: 2
-    - name: "⚡ Comparisons"
-      url: "/categories/ai-tools/"
-      weight: 3
     - name: "💰 Finance"
       url: "/categories/personal-finance/"
-      weight: 4
+      weight: 3
     - name: "🔍 Search"
       url: "/search/"
-      weight: 5
+      weight: 4
 
 outputs:
   home:
